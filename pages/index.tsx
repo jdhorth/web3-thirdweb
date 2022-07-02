@@ -130,11 +130,11 @@ const Home: NextPage = () => {
         <div className={styles.left}>
           <div>
             <a
-              href="https://thirdweb.com/"
+              href="/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src={`/logo.png`} alt="Thirdweb Logo" width={103} />
+              <img src={`/logo.png`} alt="NonFungi Logo" width={103} />
             </a>
           </div>
         </div>
