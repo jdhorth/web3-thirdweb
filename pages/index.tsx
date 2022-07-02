@@ -134,7 +134,7 @@ const Home: NextPage = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src={`/logo.png`} alt="Thirdweb Logo" width={135} />
+              <img src={`/logo.png`} alt="Thirdweb Logo" width={103} />
             </a>
           </div>
         </div>
@@ -188,7 +188,7 @@ const Home: NextPage = () => {
           <b>animal name</b>! 😉
         </p>
         <p>
-          <a href="https://testnets.opensea.io/collection/sriracha-a-universal-contract-experience">View Collection Testnet OpenSea</a>
+          <a className={styles.mainButton} href="https://testnets.opensea.io/collection/sriracha-a-universal-contract-experience">View Collection Testnet OpenSea</a>
         </p>
 
         <hr className={styles.divider} />
