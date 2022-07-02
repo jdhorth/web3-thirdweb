@@ -187,6 +187,9 @@ const Home: NextPage = () => {
           Hint: We only give out signatures if your NFT name is a cool{" "}
           <b>animal name</b>! 😉
         </p>
+        <p>
+          <a href="https://testnets.opensea.io/collection/sriracha-a-universal-contract-experience">View Collection Testnet OpenSea</a>
+        </p>
 
         <hr className={styles.divider} />
 
