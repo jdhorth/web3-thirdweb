@@ -188,7 +188,7 @@ const Home: NextPage = () => {
           <b>animal name</b>! 😉
         </p>
         <p>
-          <a className={styles.mainButton} href="https://testnets.opensea.io/collection/sriracha-a-universal-contract-experience">View Collection Testnet OpenSea</a>
+          <a className={styles.mainButton} href="https://testnets.opensea.io/collection/sriracha-a-universal-contract-experience">View On OpenSea</a>
         </p>
 
         <hr className={styles.divider} />
