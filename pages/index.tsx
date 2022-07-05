@@ -187,12 +187,10 @@ const Home: NextPage = () => {
 
         <p>
           Hint: We only give out signatures if your NFT name is a cool{" "}
-          <b>animal name, or mint a "sriracha"</b>! 😉
+          <b>animal name, or mint a sriracha</b>! 😉
         </p>
-        <div>
-          <a href="https://ipfs.io/ipfs/QmTGMF7cRgVvFy5bDuQ8eGF3tnu819EqfWsYQXVD7Si1bJ/0.png" target="_blank"
-            rel="noopener noreferrer"><Image src={sriracha} alt='/' /></a>
-        </div>
+        <a href="https://ipfs.io/ipfs/QmTGMF7cRgVvFy5bDuQ8eGF3tnu819EqfWsYQXVD7Si1bJ/0.png" target="_blank"
+          rel="noopener noreferrer"><Image src={sriracha} alt='/' /></a>
         <p>
           <a className={styles.mainButton} href="https://testnets.opensea.io/collection/sriracha-a-universal-contract-experience">View On OpenSea</a>
         </p>
