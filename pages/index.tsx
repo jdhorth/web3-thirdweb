@@ -13,6 +13,7 @@ import {
 import { ChainId, ThirdwebSDK } from "@thirdweb-dev/sdk";
 import type { NextPage } from "next";
 import { useRef, useState } from "react";
+import Image from "next/image";
 
 const Home: NextPage = () => {
   // Helpful thirdweb hooks to connect and manage the wallet from metamask.
@@ -188,7 +189,7 @@ const Home: NextPage = () => {
           <b>animal name, or mint a "sriracha"</b>! 😉
         </p>
         <a href="https://ipfs.io/ipfs/QmTGMF7cRgVvFy5bDuQ8eGF3tnu819EqfWsYQXVD7Si1bJ/0.png" target="_blank"
-          rel="noopener noreferrer"><img src={`/sriracha-grey.png`} alt="Sriracha" width={200} /></a>
+          rel="noopener noreferrer"><Image src="/sriracha-grey.png" alt="Sriracha" width={200} /></a>
         <p>
           <a className={styles.mainButton} href="https://testnets.opensea.io/collection/sriracha-a-universal-contract-experience">View On OpenSea</a>
         </p>
