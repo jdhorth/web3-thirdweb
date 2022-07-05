@@ -187,7 +187,7 @@ const Home: NextPage = () => {
 
         <p>
           Hint: We only give out signatures if your NFT name is a cool{" "}
-          <b><a href="https://github.com/jdhorth/web3-thirdweb/blob/main/animalNames.ts" target="_blank" rel="noopener noreferrer" className={styles.purple}>animal name</a>, or a sriracha</b>! 😉
+          <b><a href="https://github.com/jdhorth/web3-thirdweb/blob/main/animalNames.ts" target="_blank" rel="noopener noreferrer" className={styles.purple}>animal name</a>, or a sriracha</b>! 😉 1pr wallet, has a burn function.
         </p>
         <a href="https://ipfs.io/ipfs/QmTGMF7cRgVvFy5bDuQ8eGF3tnu819EqfWsYQXVD7Si1bJ/0.png" target="_blank"
           rel="noopener noreferrer"><Image src={sriracha} alt='/' /></a>
