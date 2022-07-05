@@ -134,7 +134,7 @@ const Home: NextPage = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src={`/logo.png`} alt="NonFungi Logo" width={103} />
+              <img src={`/logo.png`} alt="D3PP Logo" width={103} />
             </a>
           </div>
         </div>
@@ -180,13 +180,15 @@ const Home: NextPage = () => {
               thirdweb
             </a>
           </b>{" "}
-          + Next.JS to create a community-made NFT collection with restrictions.
+          + Next.JS to create a community-made NFT collection with restrictions. The minted image gets uploaded to IPFS, and will appear in the Mumbai testnet collection on OpenSea.
         </p>
 
         <p>
           Hint: We only give out signatures if your NFT name is a cool{" "}
-          <b>animal name</b>! 😉
+          <b>animal name, or mint a "sriracha"</b>! 😉
         </p>
+        <a href="https://ipfs.io/ipfs/QmTGMF7cRgVvFy5bDuQ8eGF3tnu819EqfWsYQXVD7Si1bJ/0.png" target="_blank"
+          rel="noopener noreferrer"><img src={`/sriracha-grey.png`} alt="Sriracha" width={200} /></a>
         <p>
           <a className={styles.mainButton} href="https://testnets.opensea.io/collection/sriracha-a-universal-contract-experience">View On OpenSea</a>
         </p>
@@ -195,7 +197,7 @@ const Home: NextPage = () => {
 
         <div className={styles.collectionContainer}>
           <h2 className={styles.ourCollection}>
-            Mint your own NFT into the collection:
+            Mint a Sriracha or Animal NFT into the collection:
           </h2>
 
           <input
