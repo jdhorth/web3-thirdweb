@@ -183,7 +183,7 @@ const Home: NextPage = () => {
             </a>
           </b>{" "}
           + Next.JS community-made NFT collection with restrictions.
-          <br /> Uploaded images pin to IPFS, contract Polygon Mumbai, gallery on OpenSea Testnet.
+          <br /> Uploaded images pin to IPFS, view contract <a href="https://mumbai.polygonscan.com/address/0x843d28b79e77841bdb72267fc517ffeb18a39c38">Polygon Mumbai</a>, view gallery OpenSea Testnets.
         </p>
 
         <p>
