@@ -182,7 +182,8 @@ const Home: NextPage = () => {
               thirdweb
             </a>
           </b>{" "}
-          + Next.JS community-made NFT collection with restrictions. Uploaded images pin to IPFS, contract Polygon Mumbai, gallery on OpenSea Testnet.
+          + Next.JS community-made NFT collection with restrictions.
+          <br /> Uploaded images pin to IPFS, contract Polygon Mumbai, gallery on OpenSea Testnet.
         </p>
 
         <p>
