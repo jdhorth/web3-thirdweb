@@ -15,7 +15,6 @@ body {
   --hello: -100%;
   padding-bottom: 250px;
   overflow-x: hidden;
-  scrollbar-color: Fuchsia MediumSlateBlue;
 }
 
 /* Inherit fonts for inputs and buttons */
@@ -40,6 +39,7 @@ body {
   display: flex;
   margin: 0;
   text-align: center;
+  scrollbar-color: Fuchsia MediumSlateBlue;
 }
 
 h2 {
