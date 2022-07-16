@@ -182,7 +182,7 @@ const Home: NextPage = () => {
               thirdweb
             </a>
           </b>{" "}
-          + Next.JS to create a community-made NFT collection with restrictions. The minted image gets uploaded to IPFS, and will appear in the Mumbai testnet collection on OpenSea.
+          + Next.JS to create a community-made NFT collection with restrictions. The image pins to IPFS, contract on Polygon Mumbai, testnet collection on OpenSea.
         </p>
 
         <p>
@@ -192,7 +192,7 @@ const Home: NextPage = () => {
         <a href="https://ipfs.io/ipfs/QmTGMF7cRgVvFy5bDuQ8eGF3tnu819EqfWsYQXVD7Si1bJ/0.png" target="_blank"
           rel="noopener noreferrer"><Image src={sriracha} alt='/' /></a>
         <p>
-          <a className={styles.mainButton} href="https://testnets.opensea.io/collection/sriracha-a-universal-contract-experience">View On OpenSea</a>
+          <a className={styles.mainButton} href="https://testnets.opensea.io/collection/sriracha-a-universal-contract-experience" rel="noopener nofollow">View On OpenSea</a>
         </p>
 
         <hr className={styles.divider} />
